@@ -7,6 +7,8 @@
 
     const getweatherll = require('../utils/getweatherll')
 
+    const port = process.env.PORT || 3000
+
     /*app.get('',(req,res)=>{
 
     res.send("<h1>hello world1<h1>")
@@ -106,7 +108,7 @@
 
     }) 
 
-    app.listen(3000,()=>{
+    app.listen(port,()=>{
 
     console.log("server is up and running")
 
